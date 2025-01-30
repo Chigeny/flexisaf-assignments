@@ -1,0 +1,314 @@
+.container{
+    background-image: url('images/resort.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+    @media only screen and (max-width: 915px){
+        .container{
+            background-image: url('images/resort.jpg');
+            background-repeat: no-repeat;
+            width: 915px;
+            height: auto;
+            
+        }
+    }
+
+nav ul {
+    display: inline-flex;
+    margin-left: 200px;
+ }
+    
+
+nav ul li {
+    display: inline-flex;
+    margin: 20px;
+    border: 2px solid powderblue;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: rgba(0, 255, 0, 0.4);
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+a{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+nav ul li:hover{
+    text-transform: capitalize;
+    color: white;
+    text-shadow: 2px 2px red;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+@media only screen and (max-width: 915px) {
+    .container {width: 100%;
+         height: auto;
+
+    }
+
+}
+@media only screen and (max-width: 915px) {
+    .container nav ul {display: block;
+        width: 150px;
+         margin-left: 5px;
+         margin-right: 10px;
+
+    }
+
+}
+@media only screen and (max-width: 915px) {
+    nav ul li{ display: block;
+        margin: 5px;
+        border: 2px solid powderbluer;
+        padding: 6px 6px;
+        border-radius: 7px;
+        background-color: rgba(0, 255, 0, 0.4);
+        color: white;
+        text-shadow: 2px 2px black;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+
+    }
+
+}
+@media only screen and (max-width: 915px) {
+    .container nav ul li:hover{
+        text-transform: capitalize;
+        color: white;
+        text-shadow: 2px 2px red;
+        background-color: rgba(0, 0, 255, 0.4);
+    }
+}
+.logo h1{
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px 3px white;
+    width: 200px;
+    border-radius: 9px;
+    
+}
+.logo h1:hover{
+    font-size: 30px;
+    border: 2px solid;
+    background-color: rgba(255, 255 , 255, 0.5);
+}
+
+.part2 p{
+    text-align: center; 
+    font-weight: bold; 
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+.part2 h1{
+    text-align: center;
+    font-weight: bold; 
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px black;
+}
+
+
+.part2 button{
+    margin-left: 600px;
+   padding: 15px;
+   border-radius: 7px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   font-size: 16px;
+   font-weight: bold;
+   color: white;
+   text-shadow: 2px 2px black;
+   background-color: rgba(0, 0, 0, 0.5);
+
+}
+.part2 button:hover{
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+footer{
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+
+}
+.part4{
+    display: flex;
+}
+
+.barone p{
+    margin-left: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.barone h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.part4a{
+    display: block;
+}
+
+
+.part4a ul li{
+    display: block;
+    margin-left: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .part4a h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .accessories ul li{
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top:10px ;
+    
+ }
+ .accessories{
+    margin-top: 10px;
+ }
+
+ .part4b{
+    display: block;
+ }
+.part4b h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 0;
+}
+
+.part4b ul li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+}
+.part4b ul li a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.part4b ul li:hover{
+    border: 2px solid white;
+    background-color: rgba(0, 255, 0, 0.4);
+    width: 80px;
+
+}
+.addres h2{
+    margin-left: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.addres address{
+    margin-left: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+margin-left: 600px;
+padding: 15px;
+}
+.part3 ul{
+    display: flex;
+    justify-content: center;
+    
+}
+.part3 ul li{
+    display: flex;
+    margin: 20px;
+    border: 2px solid powderblue;
+    padding: 15px;
+    border-radius: 7px;
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+
+}
+.part3 ul li:hover{
+    background-color: rgba(0, 255, 0, 0.4);
+}
+
+h2 {
+padding-left: 50px;
+}
+li{
+list-style: none;
+
+}
+a{
+text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 915px){
+    .part2{ width: 300px;
+        display: block;
+        justify-content: center;
+        margin-left: 30px;
+    
+    }
+}
+@media only screen and (max-width: 915px){
+    .part2 h1{ font-size: 16px;
+        text-align: center;
+    
+    }
+}
+@media only screen and (max-width: 915px){
+    .part2 p{
+        font-size:10px;
+        text-align: center;
+    }
+    
+    }
+    @media only screen and (max-width: 915px){
+        .part2 button{
+            margin-left: 100px;
+           padding: 5px;
+           border-radius: 4px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-size: 10px;
+           font-weight: bold;
+           color: white;
+           text-shadow: 2px 2px black;
+           background-color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+    @media only screen and (max-width: 915px){
+        .part3 ul li{
+            display: flex;
+            margin-left: 3px;
+            border: 2px solid powderblue;
+            padding: 3px;
+            border-radius: 4px;
+            background-color: rgba(255, 0, 0, 0.5);
+            color: white;
+            text-shadow: 2px 2px black;
+            font-weight: bold;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size:8px;
+            
+        }
+    }
+
+    @media only screen and (max-width: 915px){
+        .footer{ width: 100%;
+            font-size: 8px;
+        
+        }
+    }
+    
+   
+    
+
+
+
