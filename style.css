@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 .container{
     background-image: url('images/resort.jpg');
     background-repeat: no-repeat;
@@ -301,13 +304,20 @@ text-decoration: none;
     }
 
     @media only screen and (max-width: 915px){
-        .footer{ width: 100%;
-            font-size: 8px;
-        
-        }
+        footer{ width: 100%;
+              }
     }
     
-   
+    @media only screen and (max-width: 915px){
+        .part4{ width: 100%;
+            display: block;
+            column-count: 2;
+            font-size: 8px;
+            margin-left: auto;
+
+              }
+    }
+    
     
 
 
