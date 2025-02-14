@@ -4,82 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booking</title>
+    <link rel="stylesheet" href="booking.css">
     
 </head>
-<style>
-    .container{
-        margin-left: 200px;
-        background-color: powderblue;
-        width: 750px;
-        
-        
-        
-    }
-    label{
-        margin-left: 30px;
-        font-size: 25px;
-    }
-    select{
-        margin-left: 30px;
-        border: 1px solid; 
-        width: 600px;
-        height: 50px;
-        border-radius: 7px;
-        
-    }
-    option {
-        font-size: 20px;
-    }
-    @media only screen and (max-width: 915px) {
-        .container{
-            margin-left: 2px;
-            margin-right: 2px;
-            width:240px;
-            background-color: yellow;
-        }
-    }
-    @media only screen and (max-width: 915px) {
-     .container img{
-       max-width:240px;
-       height: 280px;
-        }
-    }
-
-    @media only screen and (max-width: 915px) {
-     form label{
-        margin-left: 4px;
-        font-size: 18px;
-        }
-    }
-    @media only screen and (max-width: 915px) {
-        form select{
-        margin-left: 4px;
-        border: 1px solid; 
-        width: 200px;
-        height: 20px;
-        border-radius: 4px;
-        }
-    }
-  
-    
-    @media only screen and (max-width: 915px) {
-      
-     
-    }
-
-        
-     
-      
-      
-        
-    
-
-</style>
 <body>
     <div class="container">
-        <img src="/images/room.jpg" alt="hotel room" style="width: 750px; height:400px;">
-    <h1 style="text-align: center;">Hotel Booking Form</h1>
-    <p style="text-align: center;">Book hotel rooms online for any of your events</p>
+        <img src="/images/room.jpg" alt="hotel room">
+    <h1 style=>Hotel Booking Form</h1>
+    <p>Book hotel rooms online for any of your events</p>
     <hr>
     
     <form>
@@ -107,58 +39,62 @@
 
 <label for="reasons">What do you want to book?</label><br><br>
 
-<div class="room" style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="room">
 <input type="checkbox" id="rooms" name="rooms" value="Rooms">
 <label for="rooms">Rooms</label></div><br><br>
 
-<div class="pvenue"style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="pvenue">
 <input type="checkbox" id="pvenue" name="pvenue" value="Party Venue">
 <label for="pvenue">Party Venue</label></div><br><br>
 
-<div class="rpvenue"style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="rpvenue">
 <input type="checkbox" id="rpvenue" name="rpvenue" value="Rooms+Party Venue">
 <label for="rpvenue">Rooms+Party Venue</label></div><br><br>
 
-<div class="meetinghall" style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="meetinghall">
 <input type="checkbox" id="meetinghall" name="meetinghall" value="Meeting Hall">
 <label for="meetinghall">Meeting Hall</label></div><br><br>
 
-<div class="conferenceroom" style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="conferenceroom">
 <input type="checkbox" id="Conferenceroom" name="conferenceroom" value="Conference Room">
 <label for="conferenceroom">Conference Room</label></div> <br><br>
 
-<div class="datefrom"style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;"><label for="datefrom">Date From</label>
+<div class="datefrom"><label for="datefrom">Date From</label>
 <input type="date" id="datefrom" name="datefrom" value="Date From" style="float: right;"></div><br><br>
 
-<div class="tilldate"style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="tilldate">
 <label for="till date">Till Date</label>
 <input type="date" id="tilldate" name="tilldate" value="Till Date" style="float: right;"></div>
 <br><br>
+<div class="part2">
+<h1 >Your Contact Info</h1>
+<p>Please write your contact info</p>
 
-<h1 style="margin-left: 30px;">Your Contact Info</h1>
-<p style="margin-left: 30px; font-size: 25px;">Please write your contact info</p>
+<input type="text" id="yname" name="yname" placeholder="Your Name"><br><br>
 
-<input type="text" id="yname" name="yname" placeholder="Your Name" style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;"><br><br>
+<input type="email" id="email" name="email" placeholder="Email Id"><br><br>
 
-<input type="email" id="email" name="email" placeholder="Email Id" style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;"><br><br>
+<input type="number" id="contact" name="contact" maxlength="11" size="11" placeholder="Contact Number"><br><br>
 
-<input type="number" id="contact" name="contact" maxlength="11" size="11" placeholder="Contact Number" style="border: 1px solid; padding: 5px; width: 600px; height: 40px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;"><br><br>
+<textarea name="message" rows="10" cols="40" placeholder="Give Your Suggestions!"></textarea></div>
+<div class="part3">
+ <h1>Read And Clarify</h1>
+<p>You have to pay 50% of total money in advance. <br>In case of booking cancellation, 20% of booking amount is deducted</p></div>
 
-<textarea name="message" rows="10" cols="40" placeholder="Give Your Suggestions!"style="border: 1px solid; padding: 5px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;"></textarea></textarea>
-
-<h1 style="margin-left: 30px;">Read And Clarify</h1>
-<p style="margin-left: 30px; font-size: 20px;">You have to pay 50% of total money in advance. <br>In case of booking cancellation, 20% of booking amount is deducted</p>
-
-<div class="radio" style="border: 1px solid; padding: 10px; width: 600px; height: 50px; margin-left: 30px;border-radius: 7px; border-color: rgb(29, 22, 22); background-color: white;">
+<div class="radio">
 
 <input type="radio" id="info" name="info" value="The information given is true and Best to my knowledge.Terms and Condition read" style="border: 1px solid;">
-<label for="info" style="font-size: 18px; font-weight: bold; margin-left: 30px;" >The information given is true and Best to my knowledge.Terms and Condition read</label></div><br><br>
+<label for="info">The information given is true and Best to my knowledge.Terms and Condition read</label></div><br><br>
 
-
-<input type="submit" onclick="alert('You have successfully submitted!')" value="Book Hotel Now" style="margin-left: 30px;border: 1px solid; border-radius: 7px; background-color: rgb(18, 85, 139); font-size: 30px;font-weight: bold; padding: 10px; color: white;">
+<div class="part4">
+<input type="submit" onclick="alert('You have successfully submitted!')" value="Book Hotel Now" >
+</div>
 </div>
     </form>
     
+ 
+
     
+    <script src="script.js"></script>
 </body>
 </html>

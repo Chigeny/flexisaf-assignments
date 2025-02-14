@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons on Javascript<</title>
+</head>
+<body>
+    <h1>Lessons on Javascript</h1>
+    <p>Testing Javascript data types </p>
+    <p id = "demo"></p>
+    <script>
+    const pi= 3.14;
+    let person = "John Mark";
+    let answer ='Yes I am!';
+    document.getElementById("demo").innerHTML = pi + "<br>" + person + "<br>" + answer;
+</script>
+
+<h1> Declaring a Javascript Variable</h1>
+<p id = "car"></p>
+<script>
+
+    let carName ="Volvo";
+    document.getElementById("car").innerHTML = carName;
+
+</script>
+  
+<h1>One Statement Many Variables</h1>
+<p id = "devlop"></p>
+<script>
+    let individual = "John Mark", carsName = "Volvo", price = 200;
+    document.getElementById("devlop").innerHTML = carName;
+</script>
+
+<h1> Javascript Arithmetic</h1>
+<p>You can do arithmetic with Javascript using operators like = and +<
+<p id = "maths"></p>
+<script>
+    let x = 5 + 2 +3;
+    document.getElementById("maths").innerHTML = x;
+</script>
+
+<h1>You Can Add Strings But They will Be Concatenated</h1>
+<p id="add"></p>
+<script>
+let m = "John" +" " + "Mark";
+document.getElementById("add").innerHTML = m;
+</script>
+<h1>Using Dollar Sign</h1>
+<p id = "dollar"></p>
+<script>
+
+let $$$ = 2;
+let $myMoney = 5;
+document.getElementById("dollar").innerHTML = $$$ + $myMoney;
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,384 @@
+.container{
+    margin-left: 200px;
+    background-color: powderblue;
+    width: 750px; 
+    
+}
+.container h1{
+    text-align: center;
+}
+.container p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+label{
+    margin-left: 30px;
+    font-size: 25px;
+}
+select{
+    margin-left: 30px;
+    border: 1px solid; 
+    width: 600px;
+    height: 50px;
+    border-radius: 7px;
+    
+}
+option {
+    font-size: 20px;
+}
+img{
+    width: 750px; 
+    height:400px;
+}
+.room{
+    border: 1px solid;
+     padding: 5px; 
+     width: 600px;
+      height: 40px; 
+      margin-left: 30px;
+      border-radius: 7px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .room{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+
+.pvenue{
+    border: 1px solid; 
+    padding: 5px; 
+    width: 600px; 
+    height: 40px;
+     margin-left: 30px;
+     border-radius: 7px; 
+     border-color: rgb(29, 22, 22);
+      background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .pvenue{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.rpvenue{
+    border: 1px solid;
+     padding: 5px; 
+     width: 600px; 
+     height: 40px; 
+     margin-left: 30px;
+     border-radius: 7px; 
+     border-color: rgb(29, 22, 22);
+      background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .rpvenue{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.meetinghall{
+    border: 1px solid; 
+    padding: 5px;
+     width: 600px;
+      height: 40px; 
+      margin-left: 30px;
+      border-radius: 7px; 
+      border-color: rgb(29, 22, 22); 
+      background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .meetinghall{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.conferenceroom{
+    border: 1px solid;
+     padding: 5px;
+      width: 600px; 
+      height: 40px; 
+      margin-left: 30px;
+      border-radius: 7px;
+       border-color: rgb(29, 22, 22); 
+       background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .conferenceroom{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.datefrom{
+    border: 1px solid;
+     padding: 5px; 
+     width: 600px; 
+     height: 40px; 
+     margin-left: 30px;
+     border-radius: 7px;
+      border-color: rgb(29, 22, 22); 
+      background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .datefrom{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.tilldate{
+    border: 1px solid;
+     padding: 5px; 
+     width: 600px;
+      height: 40px; 
+      margin-left: 30px;
+      border-radius: 7px; 
+      border-color: rgb(29, 22, 22);
+       background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .tilldate{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.part2 h1{
+    margin-left: 30px;
+    text-align: left;
+}
+.part2 p{
+    margin-left: 30px;
+     font-size: 25px;
+     text-align: left;
+}
+@media only screen and (max-width: 915px) {
+    .part2 p{
+
+      margin-left: 10px;
+      font-size: 16px;
+      
+}
+    }
+@media only screen and (max-width: 915px) {
+    .part2 input{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+
+.part2 input{
+    border: 1px solid;
+     padding: 5px;
+      width: 600px;
+       height: 40px;
+        margin-left: 30px;
+        border-radius: 7px; 
+        border-color: rgb(29, 22, 22);
+         background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    .part2 input{
+    border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      height: 20px; 
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+textarea{
+    border: 1px solid;
+     padding: 5px; 
+     margin-left: 30px;
+     border-radius: 7px;
+      border-color: rgb(29, 22, 22); 
+      background-color: white;
+}
+@media only screen and (max-width: 915px) {
+    textarea{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+}
+    }
+.part3 h1{
+    margin-left: 30px;
+    text-align: left;
+}
+.part3 p{
+    margin-left: 30px;
+     font-size: 20px;
+     text-align: left;
+
+}
+@media only screen and (max-width: 915px) {
+    h1{
+      margin-left: 10px;
+      font-size: 20px;
+}
+    }
+    @media only screen and (max-width: 915px) {
+        p{
+         
+          margin-left: 10px;
+          font-size: 16px;
+        }
+    }
+.radio{
+    border: 1px solid; 
+    padding: 10px; 
+    width: 600px;
+     height: 50px; 
+     margin-left: 30px;
+     border-radius: 7px; 
+     border-color: rgb(29, 22, 22);
+      background-color: white;
+    
+      
+}
+@media only screen and (max-width: 915px) {
+    .radio{
+        border: 1px solid;
+     padding: 5px; 
+     width: 200px;
+     height: 40px;
+      margin-left: 10px;
+      border-radius: 4px;
+       border-color: rgb(29, 22, 22);
+        background-color: white;
+    }
+}
+
+
+.radio label{
+    font-size: 18px;
+    font-weight: bold; 
+    margin-left: 20px;
+}
+@media only screen and (max-width: 915px) {
+    .radio label{
+        font-size: 10px;
+        font-weight: bold; 
+        margin-left: 10px;
+    }
+}
+.part4 input{
+    margin-left: 30px;
+    border: 1px solid; 
+    border-radius: 7px; 
+    background-color: rgb(18, 85, 139);
+     font-size: 30px;
+     font-weight: bold;
+      padding: 10px; 
+      color: white;
+}
+@media only screen and (max-width: 915px) {
+    .part4 input{
+        margin-left: 10px;
+    border: 1px solid; 
+    border-radius: 4px; 
+    background-color: rgb(18, 85, 139);
+     font-size: 14px;
+     font-weight: bold;
+      padding: px; 
+      color: white;
+    }
+}
+
+
+
+@media only screen and (max-width: 915px) {
+    .container{
+        margin-left: 2px;
+        margin-right: 2px;
+        width:240px;
+        background-color: yellow;
+    }
+}
+@media only screen and (max-width: 915px) {
+ .container img{
+   max-width:240px;
+   height: 280px;
+    }
+}
+
+@media only screen and (max-width: 915px) {
+ form label{
+    margin-left: 4px;
+    font-size: 18px;
+    }
+}
+@media only screen and (max-width: 915px) {
+    form select{
+    margin-left: 4px;
+    border: 1px solid; 
+    width: 200px;
+    height: 20px;
+    border-radius: 4px;
+    }
+}
+
+
+@media only screen and (max-width: 915px) {
+  form {
+    max-width: 200px;
+    margin-left: 4px;
+  }
+ 
+}
